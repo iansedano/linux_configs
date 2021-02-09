@@ -5,8 +5,5 @@ echo $file_list
 
 for f in $file_list
 do
-	#f="${f#?}"
-	echo $(pwd)${f#?}
-	echo ~/
-	
+	ln -sf $(pwd)${f#?} $HOME/
 done
