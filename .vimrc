@@ -1,6 +1,8 @@
 set ignorecase
 set smartcase
-set showmatch
+"set showmatch
+
+set mouse-=a
 
 set autoindent
 
