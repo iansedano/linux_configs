@@ -3,3 +3,5 @@
 	name = Ian
 [alias]
 	cmp = "!f() { git add -A && git commit -m \"$@\" && git push --all; }; f"
+	all = "!f() { ls | xargs -I{} git -C {} $1; }; f"
+	
